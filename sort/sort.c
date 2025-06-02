@@ -90,6 +90,19 @@ void radixsort(double* arr, long arr_size)
             vetorContagem[j] += vetorContagem[j - 1];
         }
 
+        // vetor auxiliar
+        for (int j = arr_size - 1; j >= 0; j--)
+        {
+            int unidade = ((int)arr[j] / expoente) % 10;
+            vetorAux[--vetorContagem[unidade]] = arr[j];
+        }
+
+        //copiar vetor auxiliar de volta ao original
+        for (int j = 0; j < arr_size; j++)
+        {
+            arr[j] = vetorAux[j];
+        }
+
 
         free(vetorAux);
 
