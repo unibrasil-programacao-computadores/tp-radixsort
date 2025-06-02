@@ -71,6 +71,28 @@ void radixsort(double* arr, long arr_size)
 
     int expoente = 1;
 
+    for (int i = 0; i < contador; i++)
+    {
+        int vetorContagem[10] = {0};
+        double* vetorAux = malloc(arr_size * sizeof(double));
+
+
+        // contar frequencia dos digitos
+        for (int j = 0; j < arr_size; j++)
+        {
+            int unidade = ((int)arr[j] / expoente) % 10;
+            vetorContagem[unidade]++;
+        }
+
+        // transformar contagem em posiçoes acumuladas
+        for (int j = 1; j < 10; j++)
+        {
+            vetorContagem[j] += vetorContagem[j - 1];
+        }
+
+
+        free(vetorAux);
+
     expoente *= 10;
     }
 }
