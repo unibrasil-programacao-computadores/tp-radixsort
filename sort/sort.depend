@@ -1,0 +1,52 @@
+# depslib dependency file v1.0
+1746533359 source:c:\projects\programacao-computadores\root\sort\main.c
+	"sort.h"
+	"input.h"
+
+1746533423 c:\projects\programacao-computadores\root\sort\sort.h
+	<stdlib.h>
+
+1746533114 source:c:\projects\programacao-computadores\root\sort\sort.c
+	"sort.h"
+
+1746533260 c:\projects\programacao-computadores\root\sort\input.h
+	<stdio.h>
+	<stdlib.h>
+	<time.h>
+
+1746533279 source:c:\projects\programacao-computadores\root\sort\input.c
+	"input.h"
+
+1746577806 source:c:\users\2025105322\downloads\faculdade\root\sort\input.c
+	"input.h"
+
+1746577806 c:\users\2025105322\downloads\faculdade\root\sort\input.h
+	<stdio.h>
+	<stdlib.h>
+	<time.h>
+
+1746579056 source:c:\users\2025105322\downloads\faculdade\root\sort\main.c
+	"sort.h"
+	"input.h"
+
+1746577827 c:\users\2025105322\downloads\faculdade\root\sort\sort.h
+	<stdlib.h>
+
+1748893040 source:d:\dev\faculdade\tp0-2025105322\sort\input.c
+	"input.h"
+
+1748893040 d:\dev\faculdade\tp0-2025105322\sort\input.h
+	<stdio.h>
+	<stdlib.h>
+	<time.h>
+
+1748894184 source:d:\dev\faculdade\tp0-2025105322\sort\main.c
+	"sort.h"
+	"input.h"
+
+1748893046 d:\dev\faculdade\tp0-2025105322\sort\sort.h
+	<stdlib.h>
+
+1748894037 source:d:\dev\faculdade\tp0-2025105322\sort\sort.c
+	"sort.h"
+
